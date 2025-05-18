@@ -1,26 +1,26 @@
 # Getting Started with Streamlit and Git
 
-This beginner-friendly guide walks you through setting up a Streamlit project with Git version control.
+This beginner-friendly tutorial walks you through setting up a Streamlit project with Git version control.
 
 ## Installation
 
-### 1. Create a project Folder
+### 1. Create a Project Folder
 ```bash
 mkdir my_streamlit_app
 cd my_streamlit_app
 ```
 
-### 2. Initialize git repository
+### 2. Initialize Git Repository
 ```bash
 git init
 ```
 
-### 3. Create a virtual Environment
+### 3. Create a Virtual Environment
 ```bash
 python3 -m venv venv
 ```
 
-### 4. Activate the virtual environment
+### 4. Activate the Virtual Environment
 On macOS/Linux:
 ```bash
 source venv/bin/activate
@@ -30,12 +30,10 @@ On Windows:
 ```bash
 venv\Scripts\activate
 ```
-Your command prompt displays `(venv)` at the beginning. For example:
-```(venv) my-macbook:my_project```
+Your command prompt should now show `(venv)` at the beginning.
 
-### 5. Create .gitignore file
-
-Now that you can see what's in your virtual environment folder, create a .gitignore files to ensure the virtual environment is excluded from version control.:
+### 5. Create .gitignore File
+Now that you can see what's in your virtual environment folder, exclude it from version control:
 ```bash
 echo "venv/" >> .gitignore
 echo "*.pyc" >> .gitignore
@@ -43,20 +41,18 @@ echo "__pycache__/" >> .gitignore
 echo ".DS_Store" >> .gitignore
 ```
 
-### 6. Install streamlit
+### 6. Install Streamlit
 ```bash
 pip install streamlit
 ```
 
-### 7. Save dependencies
+### 7. Save Dependencies
 ```bash
 pip freeze > requirements.txt
 ```
 
-### 8. Create a file
-
-Create a file named `app.py` either by clicking on the interface or run> ```touch app.py``
-
+### 8. Create Your First App
+Create a file named `app.py` with:
 ```python
 import streamlit as st
 
@@ -86,5 +82,7 @@ git push -u origin main
 ```bash
 deactivate
 ```
+
+Build your assistant with [Streamlit cheatsheet](https://docs.streamlit.io/library/cheatsheet)
 
 
