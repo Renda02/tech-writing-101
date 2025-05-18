@@ -1,5 +1,5 @@
 """
-The Tech Writing Assistant app uses OpenAI GPT-4 and Streamlit to help users improve their writing. Users can input text and receive style suggestions based on a defined style guide.
+The Tech Writing assistant app uses OpenAI GPT-4 and Streamlit to help users improve their writing. Users can input text and receive style suggestions based on a defined style guide.
 """
 
 import streamlit as st
