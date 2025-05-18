@@ -87,11 +87,4 @@ git push -u origin main
 deactivate
 ```
 
-## Tips for Success
-
-- Always activate your virtual environment before working on your project
-- Update requirements.txt when you install new packages
-- Commit changes regularly with meaningful messages
-- Check Streamlit's documentation for advanced features
-
 
