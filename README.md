@@ -181,7 +181,10 @@ git branch -M main
 git push -u origin main
 ```
 
-### 8. Deactivate virtual environment when done
+### 8. Manage your virtual environment
+
+Once you're finished working on your project, you can deactivate the virtual environment:
+
 ```bash
 deactivate
 ```
