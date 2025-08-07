@@ -198,4 +198,4 @@ If you encounter OpenAI API errors, the app provides clear feedback for:
 
 ## Resources
 
-- See[Streamlit cheatsheet](https://docs.streamlit.io/library/cheatsheet) fofor Streamlit commands and code examples for creating various UI elements, displaying data, and managing the app state.
+- See [Streamlit cheatsheet](https://docs.streamlit.io/library/cheatsheet) for Streamlit commands and code examples for creating various UI elements, displaying data, and managing the app state.
